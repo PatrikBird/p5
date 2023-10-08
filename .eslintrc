@@ -1,9 +1,0 @@
-{
-  "extends": [
-    "@antfu", 
-    "plugin:tailwindcss/recommended"
-  ],
-  "rules": {
-    "no-console": "off"
-  }
-}
