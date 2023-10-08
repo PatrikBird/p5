@@ -3,7 +3,7 @@ definePageMeta({
   layout: 'sketch',
 })
 
-const sketch = (p5) => {
+function sketch(p5) {
   const x = []
   const y = []
   const segNum = 20

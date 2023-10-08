@@ -40,7 +40,7 @@ export default defineConfig({
       provider: 'bunny',
       fonts: {
         sans: 'Inter:400,600,800',
-        mono: 'DM Mono:400,600',
+        mono: 'Ubuntu Mono:400,600',
         mont: 'Montserrat:600,700,800',
       },
     }),
