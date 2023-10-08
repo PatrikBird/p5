@@ -1,4 +1,11 @@
 <script setup lang='ts'>
+useHead({
+  title: 'p5 sketches | Patrik Bird',
+  meta: [
+    { name: 'description', content: 'Some sketches made with p5js.' },
+  ],
+})
+
 const routes = useRouter().getRoutes()
 
 const routesWithoutIndex = computed(() => {
@@ -17,7 +24,7 @@ const routesWithoutIndex = computed(() => {
       Sketches
     </h2>
     <p class="mt-6 text-lg">
-      Some Intro
+      made with p5js.
     </p>
     <ul class="pl-0 mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-2">
       <li v-for="{ name, path } in routesWithoutIndex" :key="name" class="list-none">
